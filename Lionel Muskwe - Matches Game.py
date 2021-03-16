@@ -1,4 +1,6 @@
 import random
+import time
+
 sticks = 21 # defines the number of sticks to be used in the game
 
 def computerPlayMove():
@@ -45,5 +47,5 @@ def gameLoop():
             print("Computer Wins")
             gameOver()
             break
-
 gameLoop()
+time.sleep(3)
